@@ -4,6 +4,8 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Videos from "./components/Videos";
 import Upload from "./components/Upload";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 
 
@@ -15,6 +17,8 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/Videos' element={<Videos/>} />
         <Route path='/Upload' element={<Upload/>} />
+        <Route path='/Login' element={<Login/>} />
+        <Route path='/SignUp' element={<SignUp/>} />
          </Routes>
          <Footer/>
 
