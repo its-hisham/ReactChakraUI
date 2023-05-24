@@ -10,7 +10,7 @@ const Footer = () => {
 <Stack direction={["column","row"]}>
 
 <VStack alignItems={'stretch'} w={'full'} px={'4'}>
-    <Heading size={"md"}  textTransform={"uppercase"}>Subscribe to get updates</Heading>
+    <Heading size={"md"}  textTransform={"uppercase"} textAlign={['center','left']}>Subscribe to get updates</Heading>
 
     <HStack borderBottom={'2px solid white'} py={'2'}>
 
@@ -42,12 +42,12 @@ w={'full'}
 
 <Heading size={'md'} textTransform={'uppercase'}>Social Media</Heading>
 <Button variant={'link'} colorScheme={'whiteAlpha'}>
-    <a href='https://www.linkedin.com/in/mohammadhishamofficial/'>LinkedIn</a>
+    <a target={'blank'} href='https://www.linkedin.com/in/mohammadhishamofficial/'>LinkedIn</a>
 
 </Button>
 
 <Button variant={'link'} colorScheme={'whiteAlpha'}>
-    <a href='https://github.com/its-hisham'>Git Hub</a>
+    <a target={'blank'} href='https://github.com/its-hisham'>Git Hub</a>
 
 </Button>
 

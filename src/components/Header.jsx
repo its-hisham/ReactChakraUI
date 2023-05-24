@@ -19,6 +19,7 @@ const {isOpen,onOpen,onClose}= useDisclosure()
         h={'10'}
         borderRadius={'full'}
         onClick={onOpen}
+        zIndex={'overlay'}
         >
 
        <BiMenuAltLeft size={'20'}/>
