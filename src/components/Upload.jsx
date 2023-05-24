@@ -12,7 +12,19 @@ const Upload = () => {
 
     <form>
         <HStack>
-            <Input required type='file'></Input>
+            <Input required type='file' css={{
+                "&::file-selector-button":{
+                    border:'none',
+                    width:'calc(100% + 36px)',
+                    height:'100%',
+                    marginLeft:'-19px',
+                    color:'purple',
+                    backgroundColor:'white',
+                    cursor:'pointer'
+
+
+                }
+            }}></Input>
             <Button colorScheme='purple' type='submit'>Upload</Button>
         </HStack>
     </form>
