@@ -1,4 +1,4 @@
-import { Box, Heading, Image } from '@chakra-ui/react';
+import { Box, Container, Heading, Image, Stack,Text } from '@chakra-ui/react';
 import React from 'react'
 import {Carousel} from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -24,6 +24,30 @@ const headingOptions={
   return <Box>
      
           <MyCarousel/>
+
+          <Container maxW={'container.xl'} minH={'100vh'} p={'16'}>
+
+               <Heading textTransform={'uppercase'} p={'2'} w={'fit-content'} borderBottom={'2px solid'} m={'auto'}>
+                Services
+               </Heading>
+
+               <Stack
+               h={'full'} p={'4'} alignItems={'center'} direction={['column' , 'row']}
+               
+               >
+              
+              <Image src= {img5} h={['40' ,'400']} filter={'hue-rotate(-130deg)'}/>
+
+              <Text letterSpacing={'widest'} lineHeight={'190%'} p={['4','16']} textAlign={'center'}>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore libero quisquam aperiam. Tempora velit, voluptatum nemo culpa, quaerat adipisci quisquam numquam at tempore officia sed consequatur blanditiis, quo delectus vel fugit porro? Porro ad dolorem eaque dolorum laboriosam ducimus ipsum commodi sapiente totam. Non laudantium recusandae, consequuntur maxime iste obcaecati quaerat nisi eveniet alias saepe enim maiores quos amet labore necessitatibus fugit officiis molestias cum nihil atque. Sint facere facilis accusamus, voluptatibus et ipsum placeat praesentium suscipit saepe ipsam doloribus porro aut iure maxime dicta natus est alias molestiae! Laboriosam sit numquam quaerat, nemo ducimus molestiae nostrum accusantium ipsum maiores!
+              </Text>
+
+               </Stack>
+
+
+          </Container>
+
+          
 
         </Box>
   
